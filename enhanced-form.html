@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Innocent Akumu Omollo's personal webpage showcasing skills, weekly schedule, media, and a contact form.">
+    <meta name="keywords" content="Innocent Akumu Omollo, web development, skills, schedule, media, contact form">
+    <meta name="author" content="Innocent Akumu Omollo">
+    <title>Innocent Akumu Omollo's Form,Lists,Tables and Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><i class="fas fa-code"></i> INNOCENT AKUMU OMOLLO</h1>
+        <p>Here is a webpage showcasing my skills, how i plan myself on a day to day basis, some media and a contact form where 
+        you can get in touch with me</p>
+    </header>
+
+    <main>
+        <!-- Lists Section -->
+        <section class="content-section">
+            <h2><i class="fas fa-list"></i> My Skills</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> HTML5</li>
+                <li><i class="fas fa-check-circle"></i> CSS3</li>
+                <li><i class="fas fa-check-circle"></i> JavaScript Basics</li>
+                <li><i class="fas fa-check-circle"></i> Python</li>
+                <li><i class="fas fa-check-circle"></i> Web Development</li>
+            </ul>
+        </section>
+
+        <!-- Table Section -->
+        <section class="content-section">
+            <h2><i class="fas fa-table"></i> My Weekly Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Activities</th>
+                        <th>Timing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Web Development Session</td>
+                        <td>10:00 AM - 12:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Python Session</td>
+                        <td>10:00 AM - 12:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Database Design Session</td>
+                        <td>10:00 AM - 12:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Media Section -->
+        <section class="content-section">
+            <h2><i class="fas fa-photo-video"></i> Media Showcase</h2>
+            <figure>
+                <p><i class="fas fa-image"></i> Here is a sample image of myself:</p>
+                <img src="Personal_Image.jpg" alt="Picture of Innocent Akumu Omollo" width="200" height="200">
+                <figcaption>Innocent Akumu Omollo</figcaption>
+                <video controls width="320" height="240">
+                    <source src="https://videos.pexels.com/video-files/2759477/2759477-uhd_2560_1440_30fps.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-section">
+            <h2><i class="fas fa-paper-plane"></i> Contact Form</h2>
+            <form>
+                <fieldset>
+                    <legend><i class="fas fa-user"></i> Personal Information</legend>
+                    <label for="name"><i class="fas fa-signature"></i> Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name here...." required>
+
+                    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email here..." required>
+
+                    <label for="phone"><i class="fas fa-phone"></i> Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter your phone number here..." required>
+                </fieldset>
+
+                <fieldset>
+                    <legend><i class="fas fa-info-circle"></i> Additional Details</legend>
+                    <label for="dob"><i class="fas fa-calendar-alt"></i> Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender"><i class="fas fa-venus-mars"></i> Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="country"><i class="fas fa-globe"></i> Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country...</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="uganda">Uganda</option>
+                        <option value="tanzania">Tanzania</option>
+                        <option value="rwanda">Nigeria</option>
+                        <option value="south-africa">South Africa</option>
+                        <option value="ghana">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend><i class="fas fa-comment-dots"></i> Message</legend>
+                    <label for="message"><i class="fas fa-pencil-alt"></i> Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </fieldset>
+
+                <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><i class="fas fa-copyright"></i> 2025 Innocent Akumu Omollo | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
